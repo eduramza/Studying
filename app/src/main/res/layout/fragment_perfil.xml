@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_layout"
+    android:paddingRight="@dimen/padding_layout"
+    tools:context="com.ramattecgmail.rafah.studying.Fragments.PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/llImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_perfilPerfil"
+            android:layout_width="@dimen/tam_img_perfil"
+            android:layout_height="@dimen/tam_img_perfil" />
+
+        <ImageView
+            android:id="@+id/im_galeriaPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_alt"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="2dp"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_nomePerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERFIL"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <TextView
+        android:id="@+id/tv_emailPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="Email"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <TextView
+        android:id="@+id/tv_telPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="TELEFONE"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <TextView
+        android:id="@+id/tv_nascPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="NASCIMENTO"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <TextView
+        android:id="@+id/tv_escolPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="ESCOLARIDADE"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <TextView
+        android:id="@+id/tv_profPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="PROFISSÃO"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <TextView
+        android:id="@+id/tv_paisPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="PAÍS"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <TextView
+        android:id="@+id/tv_estadoPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="ESTADO"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <TextView
+        android:id="@+id/tv_cidadePerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="CIDADE"
+        android:textSize="@dimen/tv_perfil"/>
+
+    <Button
+        android:id="@+id/bt_editarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/mrg_tv_perfil"
+        android:text="EDITAR"/>
+
+</LinearLayout>

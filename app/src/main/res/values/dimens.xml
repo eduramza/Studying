@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="mrg_top_edits">8dp</dimen>
+    <dimen name="edit_txt_size">22sp</dimen>
+
+    <!--NAVIGATION VIEW -->
+    <dimen name="height_header">190dp</dimen>
+    <dimen name="circle_image_header">76dp</dimen>
+    <dimen name="mrg_imagem_perfil">24dp</dimen>
+    <dimen name="mrg_bot_tvemail">8dp</dimen>
+    <dimen name="tam_text_perfil">14sp</dimen>
+    <dimen name="height_toolbar">64dp</dimen>
+    <dimen name="radius_img_profile">30dp</dimen>
+
+    <!-- FRAGMENTS: PERFIL -->
+    <dimen name="tv_perfil">17sp</dimen>
+    <dimen name="mrg_tv_perfil">20dp</dimen>
+    <dimen name="padding_layout">15dp</dimen>
+    <dimen name="tam_img_perfil">120dp</dimen>
+
+    <!--FRAGMENTS: NOVA ATIVIDADE -->
+    <dimen name="larg_spinner">120dp</dimen>
+    <dimen name="tam_caixa_descricao">200dp</dimen>
+    <dimen name="tam_textviews">20sp</dimen>
+    <dimen name="tam_edit_data">130dp</dimen>
+    <dimen name="tam_bt_anexos">19sp</dimen>
+    <dimen name="tam_spn_nivel">75dp</dimen>
+    <dimen name="tam_et_owner">160dp</dimen>
+
+    <!--ALERT CATEGORIAS -->
+    <dimen name="mrg_esq_imagens">18dp</dimen>
+
+    <!--Listas -->
+    <dimen name="tam_tv_atividades">19sp</dimen>
+    <dimen name="tam_lbl_info">190dp</dimen>
+    <dimen name="tam_img_categoria">56dp</dimen>
+</resources>

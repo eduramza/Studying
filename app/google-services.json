@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "70792268595",
+    "firebase_url": "https://assistente-de-estudo.firebaseio.com",
+    "project_id": "assistente-de-estudo",
+    "storage_bucket": "assistente-de-estudo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70792268595:android:c35640821959e3d7",
+        "android_client_info": {
+          "package_name": "com.ramattecgmail.rafah.studying"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70792268595-s33bje7vgueo5p64mskenjfcq7eemqa0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ramattecgmail.rafah.studying",
+            "certificate_hash": "485802d29a4591b800274610a31f92a12a1b6771"
+          }
+        },
+        {
+          "client_id": "70792268595-jubqktu6smtshc18lnpb324i3120pf5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4zRdNoqUyJKEZmOfBaZ7ptE5wPRREBn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70792268595-jubqktu6smtshc18lnpb324i3120pf5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

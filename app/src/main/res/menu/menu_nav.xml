@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anroid="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gi_perfil"
+            android:checked="false"
+            android:title="@string/gi_perfil"/>
+
+        <item
+            android:id="@+id/gi_abrirA"
+            android:checked="false"
+            android:title="@string/gi_abrirA"/>
+
+        <item
+            android:id="@+id/gi_consultarA"
+            android:checked="false"
+            android:title="@string/gi_consulta"/>
+
+        <item
+            android:id="@+id/gi_avaliar"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="@string/gi_avaliar"/>
+
+        <item
+            android:id="@+id/gi_email"
+            android:checked="false"
+            android:icon="@drawable/ic_drafts_black"
+            android:title="@string/gi_email"/>
+
+        <item
+            android:id="@+id/gi_config"
+            android:checked="false"
+            android:title="@string/gi_config"/>
+
+        <item
+            android:id="@+id/gi_sair"
+            android:checked="false"
+            android:title="@string/gi_sair"/>
+
+    </group>
+</menu>

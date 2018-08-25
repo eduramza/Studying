@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_header"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/img_perfil_header"
+        android:layout_width="@dimen/circle_image_header"
+        android:layout_height="@dimen/circle_image_header"
+        android:src="@drawable/profile"
+        android:scaleType="fitCenter"
+        app:riv_corner_radius="@dimen/radius_img_profile"
+        app:riv_border_width="1dp"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="repeat"
+        app:riv_oval="true"
+        app:riv_border_color="#FF000000"
+        android:layout_marginLeft="@dimen/mrg_imagem_perfil"
+        android:layout_marginStart="@dimen/mrg_imagem_perfil"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tv_nome_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Nome do usuario"
+        android:textSize="@dimen/tam_text_perfil"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"
+        android:layout_above="@+id/tv_email_header"
+        android:layout_alignLeft="@+id/img_perfil_header"
+        android:layout_alignStart="@+id/img_perfil_header" />
+
+    <TextView
+        android:id="@+id/tv_email_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Email do Usuario"
+        android:textSize="@dimen/tam_text_perfil"
+        android:textColor="#fff"
+        android:layout_marginBottom="@dimen/mrg_bot_tvemail"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/tv_nome_header"
+        android:layout_alignParentStart="@+id/tv_nome_header" />
+
+</RelativeLayout>
